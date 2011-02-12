@@ -1,0 +1,19 @@
+= Implementation of R6RS Appendix A
+
+Try R6RS Scheme!
+
+
+== Introduction
+
+Revised^6 Report on the Algorithmic Language Scheme (R6RS) defines
+the operational semantics for Scheme in Appendix A.
+
+  http://www.r6rs.org/final/html/r6rs/r6rs-Z-H-15.html#node_chap_A
+
+This program is a implementation of it.
+
+
+== How to use
+
+Run SWI-Prolog and use evaluate/1 like this:
+?- evaluate("(car '(a b c))").
